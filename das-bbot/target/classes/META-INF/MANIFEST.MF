@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: das-bbot
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 1.0.0
 Built-By: tin3031
 Implementation-Vendor-Id: com.boot
 Build-Jdk: 1.8.0_131
