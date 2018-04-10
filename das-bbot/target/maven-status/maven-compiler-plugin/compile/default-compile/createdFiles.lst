@@ -1,0 +1,4 @@
+com\boot\App.class
+com\boot\model\Shipwreck.class
+com\boot\contoller\ShipwreckStub.class
+com\boot\contoller\ShipwreckController.class

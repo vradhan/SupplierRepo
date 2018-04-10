@@ -1,0 +1,50 @@
+<div class="container pad-top">
+	<table class="table shipwrecktable">
+		<tr>
+			<td><h3>Details for {{shipwreck.originalName}}</h3></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>originalName</td>
+			<td>{{shipwreck.originalName}}</td>
+		</tr>
+		<tr>
+			<td>englishName</td>
+			<td>{{shipwreck.englishName}}</td>
+		</tr>
+		<tr>
+			<td>status</td>
+			<td>{{shipwreck.status}}</td>
+		</tr>
+		<tr>
+			<td>address</td>
+			<td>{{shipwreck.address}}</td>
+		</tr>
+		<tr>
+			<td>street</td>
+			<td>{{shipwreck.street}}</td>
+		</tr>
+		<tr>
+			<td>city</td>
+			<td>{{shipwreck.city}}</td>
+		</tr>
+		
+		<tr>
+			<td>postalCode</td>
+			<td>{{shipwreck.postalCode}}</td>
+		</tr>
+		<tr>
+			<td>countryCode</td>
+			<td>{{shipwreck.countryCode}}</td>
+		</tr>
+
+		<tr>
+			<td>countryName</td>
+			<td>{{shipwreck.countryName}}</td>
+		</tr>
+
+	</table>
+	<div>
+		<a class="btn btn-primary" ui-sref="editShipwreck({id:shipwreck.id})">Edit</a>
+	</div>
+</div>
